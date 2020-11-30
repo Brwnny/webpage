@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #2b2b2b;
+    font-family: 'Nerko One', cursive;
+}
+
+{
+    margin: 0px;
+}
+
+nav {
+    font-family: 'Nerko One', cursive;
+    background-image: linear-gradient(to right, #02aab0, #00cdac);
+}
+
+.home {
+    width: 10%;
+    height: 52.4px;
+    float: left;
+    align-content: center;
+}
+
+.home:hover {
+    cursor: pointer;
+    background-color: #00cdac;
+}
+
+.menu li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.menu ul {
+    padding: 0;
+}
+
+.menu li:hover {
+    background-color: #01767b;
+    cursor: pointer;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.menu {
+    float: left;
+    width: 90%;
+    height: 100%;
+}
+
+/ clearfixing */ .logo {
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+nav:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav i {
+    margin-left: 15px;
+}
+
+main {
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 85px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.bgimg {
+    padding-top: 10%;
+    height: 350px;
+    background: linear-gradient(#02aab0, transparent 50%), linear-gradient(0deg, #00cdac, transparent 50%), #ffa949 url(img/film.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+.abgimg {
+    padding-top: 10%;
+    height: 350px;
+    background: linear-gradient(#02aab0, transparent 50%), linear-gradient(0deg, #00cdac, transparent 50%), #ffa949 url(img/afilm.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+h2 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    letter-spacing: .065em;
+    font-weight: 200;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    color: White;
+    margin: 25px 25px;
+    border-bottom: 2px solid;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    opacity: 1 !important;
+}
+
+table {
+    border-style: hidden;
+    position: center;
+    width: 80%;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+td,
+tr {
+    border: 0px transparent;
+    position: top center;
+}
+
+.date {
+    color: honeydew;
+    padding: 16px 0px;
+    width: 15%;
+    text-align: center;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+.accordion {
+    background-color: #00cdac;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.accordion:hover {
+    color: orange;
+    background-color: #02aab0;
+    transform: scale(1.05);
+}
+
+.accordion:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+
+.panel {
+    padding: 10px 10px;
+    background-color: white;
+    display: none;
+    overflow: visible;
+    align-self: center;
+}
+
+.pane1:hover {
+    width: 150%;
+}
+
+.venice {
+    background: url(img/venice.jpg), no-repeat;
+    font-size: 20px;
+}
+
+.golden {
+    background: url(img/goldenglobe.jpg), no-repeat;
+    opacity: 0.5;
+}
+
+footer {
+    background-image: linear-gradient(to right, #02aab0, #00cdac);
+    padding: 25px 25px;
+}
